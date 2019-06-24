@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LoginPageTestSuites" verbose="1" parallel="methods" thread-count='2'>
+<!-- <suite parallel="false" name="Suite"> -->
+  <test name="Test">
+    <parameter name="username" value="z00354714" />
+    <parameter name="password" value="zyl2019_" />
+    <parameter name="phone" value="15002991409" />
+    <parameter name="password1" value="Test1234_" />
+    <classes>
+      <class name="testCases.LoginPageTestSuites"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

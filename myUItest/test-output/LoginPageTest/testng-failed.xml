@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [LoginPageTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="testCases.LoginPageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f" invocation-numbers="0 1"/>
+          <include name="afterTest"/>
+          <include name="BeforeMethon"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LoginPageTest] -->

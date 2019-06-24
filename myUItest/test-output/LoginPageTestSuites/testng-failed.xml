@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [LoginPageTestSuites]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <parameter name="password" value="zyl2019_"/>
+    <parameter name="phone" value="15002991409"/>
+    <parameter name="password1" value="Test1234_"/>
+    <parameter name="username" value="z00354714"/>
+    <classes>
+      <class name="testCases.LoginPageTestSuites">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="BeforeMethon"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="f1" invocation-numbers="0"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testCases.LoginPageTestSuites -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LoginPageTestSuites] -->
